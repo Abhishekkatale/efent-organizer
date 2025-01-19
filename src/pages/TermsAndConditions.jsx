@@ -16,7 +16,7 @@ const pageTransition = {
 
 const TermsOfService = () => {
   return (
-    <div className="bg-[#1F1F1F] text-white min-h-screen">
+    <div className="bg-black text-white min-h-screen">
       <Header />
       <motion.div
         className="container mx-auto px-4 py-8 lg:px-8 lg:py-12 max-w-4xl"
@@ -25,24 +25,24 @@ const TermsOfService = () => {
         variants={pageVariants}
         transition={pageTransition}
       >
-        <h1 className="text-4xl font-bold mb-6 mt-12 text-center lg:text-5xl py-12 lg:mb-8 ">Terms of Service</h1>
+        <h1 className="text-4xl  text-orange-400 font-bold mb-6 mt-12 text-center lg:text-5xl py-12 lg:mb-8 ">Terms of Service</h1>
 
         <section className="mb-8">
           <h2 className="text-3xl font-semibold mb-4">1. Introduction</h2>
           <p className="text-lg leading-relaxed">
-            Welcome to Aspire Sports Club. These Terms of Service ("Terms") govern your use of our website and services. By accessing or using our website, you agree to comply with and be bound by these Terms. If you do not agree with these Terms, please do not use our website.
+            Welcome to efent. These Terms of Service ("Terms") govern your use of our website and services. By accessing or using our website, you agree to comply with and be bound by these Terms. If you do not agree with these Terms, please do not use our website.
           </p>
         </section>
 
         <section className="mb-8">
           <h2 className="text-3xl font-semibold mb-4">2. Services Provided</h2>
           <ul className="list-disc pl-6 text-lg space-y-2">
-            <li>Sports training for various skill levels.</li>
-            <li>Ground revitalization and maintenance.</li>
-            <li>Provision of professional coaches.</li>
-            <li>Multi-sport club management.</li>
-            <li>Tournament organization.</li>
-            <li>Self-development programs through sports.</li>
+            <li>Event planning for weddings, corporate events, and parties.</li>
+            <li>Venue selection and booking.</li>
+            <li>Event design and decoration services.</li>
+            <li>Catering and entertainment arrangements.</li>
+            <li>Professional event coordination and management.</li>
+            <li>Event marketing and promotion services.</li>
           </ul>
         </section>
 
@@ -58,7 +58,7 @@ const TermsOfService = () => {
         <section className="mb-8">
           <h2 className="text-3xl font-semibold mb-4">4. Booking and Payment</h2>
           <ul className="list-disc pl-6 text-lg space-y-2">
-            <li><strong>Booking:</strong> Bookings for services such as training sessions or tournaments must be made through our website or by contacting our support team.</li>
+            <li><strong>Booking:</strong> Bookings for services such as event planning or venue selection must be made through our website or by contacting our support team.</li>
             <li><strong>Payment:</strong> Payment for services must be completed according to the instructions provided at the time of booking. All payments are non-refundable except as required by law.</li>
           </ul>
         </section>
@@ -74,14 +74,14 @@ const TermsOfService = () => {
         <section className="mb-8">
           <h2 className="text-3xl font-semibold mb-4">6. Limitation of Liability</h2>
           <p className="text-lg leading-relaxed">
-            Aspire Sports Club is not liable for any indirect, incidental, special, or consequential damages arising from your use of our services. Our total liability for any claim arising out of your use of our services shall not exceed the amount paid by you for the services in question.
+            efent is not liable for any indirect, incidental, special, or consequential damages arising from your use of our services. Our total liability for any claim arising out of your use of our services shall not exceed the amount paid by you for the services in question.
           </p>
         </section>
 
         <section className="mb-8">
           <h2 className="text-3xl font-semibold mb-4">7. Intellectual Property</h2>
           <p className="text-lg leading-relaxed">
-            All content on our website, including text, graphics, logos, and images, is the property of Aspire Sports Club or its licensors and is protected by copyright and trademark laws. You may not use, reproduce, or distribute any content without our prior written consent.
+            All content on our website, including text, graphics, logos, and images, is the property of efent or its licensors and is protected by copyright and trademark laws. You may not use, reproduce, or distribute any content without our prior written consent.
           </p>
         </section>
 
@@ -95,7 +95,7 @@ const TermsOfService = () => {
         <section className="mb-8">
           <h2 className="text-3xl font-semibold mb-4">9. Modifications to Terms</h2>
           <p className="text-lg leading-relaxed">
-            Aspire Sports Club reserves the right to modify these Terms at any time. Any changes will be posted on our website, and your continued use of the website constitutes acceptance of the revised Terms.
+            efent reserves the right to modify these Terms at any time. Any changes will be posted on our website, and your continued use of the website constitutes acceptance of the revised Terms.
           </p>
         </section>
 
@@ -112,9 +112,9 @@ const TermsOfService = () => {
             For any questions or concerns regarding these Terms, please contact us at:
           </p>
           <ul className="list-none pl-0 text-lg">
-            <li>Email: <a href="mailto:info@aspiresportsclub.in" className="text-green-700 hover:underline">info@aspiresportsclub.in</a></li>
-            <li>Phone: <a href="tel:+917559344845" className="text-green-700 hover:underline">+91 7559344845</a></li>
-            <li>WhatsApp: <a href="https://wa.me/917559344845" className="text-green-700 hover:underline" target="_blank" rel="noopener noreferrer">Chat with us</a></li>
+            <li>Email: <a href="mailto:info.efent@gmail.com" className="text-orange-700 hover:underline">info.efent@gmail.com</a></li>
+            <li>Phone: <a href="tel:+91 7875717213" className="text-orange-700 hover:underline">+91 7875717213</a></li>
+            <li>WhatsApp: <a href="https://wa.me/917875717213" className="text-orange-700 hover:underline" target="_blank" rel="noopener noreferrer">Chat with us</a></li>
           </ul>
         </section>
 

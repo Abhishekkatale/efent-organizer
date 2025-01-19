@@ -2,6 +2,7 @@ import React, { useState, useEffect } from 'react';
 import { motion } from 'framer-motion';
 import logo from '../assets/logoo.svg';
 import { FiMenu, FiX } from 'react-icons/fi';
+import { Link } from 'react-router-dom';
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);
@@ -34,29 +35,29 @@ const Header = () => {
       <nav className="flex items-center justify-between px-4 py-6 md:px-16 md:py-6">
         {/* Left Navigation (Mobile Hidden) */}
         <div className="hidden md:flex items-center space-x-24 text-xl text-gray-200">
-          <a href="#" className="hover:text-orange-500 transition text-orange-200">Home</a>
-          <a href="#" className="hover:text-orange-500 transition text-orange-200">About Us</a>
-          <a href="#" className="hover:text-orange-500 transition text-orange-200">Services</a>
+          <Link to="/" className="hover:text-orange-500 transition text-orange-200">Home</Link>
+          <Link to="/about-us" className="hover:text-orange-500 transition text-orange-200">About Us</Link>
+          <Link to="/services" className="hover:text-orange-500 transition text-orange-200">Services</Link>
         </div>
 
         {/* Center Logo */}
         <div className="text-center">
-          <a href="#">
+          <Link to="/">
             <motion.img
               src={logo}
-              alt="CRAFTWORLD Logo"
+              alt="Efent Logo"
               className="w-20 mx-auto md:w-24"
               whileHover={{ scale: 1.1 }}
               transition={{ duration: 0.3 }}
             />
-          </a>
+          </Link>
         </div>
 
         {/* Right Navigation (Mobile Hidden) */}
         <div className="hidden md:flex items-center space-x-24 text-xl text-gray-200">
-          <a href="#" className="hover:text-orange-500 transition text-orange-200">Portfolios</a>
-          <a href="#" className="hover:text-orange-500 transition text-orange-200">Blog</a>
-          <a href="#" className="hover:text-orange-500 transition text-orange-200">Contact Us</a>
+          <Link to="/portfolios" className="hover:text-orange-500 transition text-orange-200">Portfolios</Link>
+          <Link to="/blog" className="hover:text-orange-500 transition text-orange-200">Blog</Link>
+          <Link to="/contact-us" className="hover:text-orange-500 transition text-orange-200">Contact Us</Link>
         </div>
 
         {/* Mobile Menu Toggle */}
@@ -75,22 +76,22 @@ const Header = () => {
         <div className="bg-black bg-opacity-90 text-gray-200 absolute top-16 left-0 w-full py-4 z-40">
           <ul className="flex flex-col items-center space-y-4">
             <li>
-              <a href="#" className="hover:text-orange-500 transition">Home</a>
+              <Link to="/" className="hover:text-orange-500 transition">Home</Link>
             </li>
             <li>
-              <a href="#" className="hover:text-orange-500 transition">About Us</a>
+              <Link to="/about-us" className="hover:text-orange-500 transition">About Us</Link>
             </li>
             <li>
-              <a href="#" className="hover:text-orange-500 transition">Services</a>
+              <Link to="/services" className="hover:text-orange-500 transition">Services</Link>
             </li>
             <li>
-              <a href="#" className="hover:text-orange-500 transition">Portfolios</a>
+              <Link to="/portfolios" className="hover:text-orange-500 transition">Portfolios</Link>
             </li>
             <li>
-              <a href="#" className="hover:text-orange-500 transition">Blog</a>
+              <Link to="/blog" className="hover:text-orange-500 transition">Blog</Link>
             </li>
             <li>
-              <a href="#" className="hover:text-orange-500 transition">Contact Us</a>
+              <Link to="/contact-us" className="hover:text-orange-500 transition">Contact Us</Link>
             </li>
           </ul>
         </div>

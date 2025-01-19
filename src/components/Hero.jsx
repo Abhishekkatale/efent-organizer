@@ -5,8 +5,8 @@ const Hero = () => {
     <section id="hero" className="relative w-full h-screen overflow-hidden">
       {/* Video Background */}
       <video
-        className="absolute inset-0 w-full h-full object-cover brightness-[1.2]" // Increase brightness
-        src={require("../assets/video.mp4")}
+        className="absolute inset-0 w-full h-full object-cover brightness-[1.2]" // Video size adjustments
+        src={require("../assets/vid.MP4")}
         autoPlay
         loop
         muted

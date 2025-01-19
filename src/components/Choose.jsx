@@ -22,16 +22,9 @@ const WhyChooseUs = () => {
             Why You Should Choose Us?
           </h2>
           <p className="text-gray-300 leading-relaxed mb-6 text-xl">
-            At Craftworld Events, the ideal customer experience in occasion is a
-            comprehensive, yet flexible framework for achieving customer
-            loyalty. Therefore, by learning and understanding your needs, we can
-            tailor the pieces of the framework that are necessary to help you
-            create the bonds of Customer Loyalty with your customers. Here,
-            you’ll find a platform that will be unique to you and your brand – a
-            platform that will define your success. Current success stories at
-            “Craftworld Events” include Indian Kids Fashion Week and Chef’s
-            Connect.
-          </p>
+  At Efent, we specialize in event management and organization, offering comprehensive solutions for handling all types of events. By understanding your unique requirements, we craft tailored experiences to ensure your event's success. Whether it's a corporate gathering, wedding, birthday, or a grand celebration, we deliver excellence with a focus on your vision. With Efent, you'll find a reliable partner dedicated to creating memorable moments and elevating your brand. Let us help you bring your events to life with precision and creativity.
+</p>
+
           <motion.button
             className="bg-orange-400 text-black py-2 px-6 rounded-md hover:bg-orange-500 transition-all"
             whileHover={{ scale: 1.1 }}

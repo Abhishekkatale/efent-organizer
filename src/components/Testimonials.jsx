@@ -1,35 +1,55 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Slider from "react-slick";
-import "slick-carousel/slick/slick.css"; 
+import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
-
-import image1 from "../assets/H3.jpeg";
-
 
 const testimonials = [
   {
-    name: "John Doe",
-    designation: "CEO, ABC Corp",
-    image: image1,
+    name: "Mayuri Gavhane",
+    designation: "Director, Cadence Academy",
     feedback:
-      "This event was exceptional! The organization and execution were flawless. Highly recommend!",
+      "The traditional event was conducted with such elegance and attention to detail. It was a remarkable experience, leaving everyone impressed.",
   },
   {
-    name: "Jane Smith",
-    designation: "Marketing Head, XYZ Ltd",
-    image: image1,
+    name: "Dr. R. V. Patil",
+    designation: "Principal, PDEACOEM",
     feedback:
-      "An outstanding experience! Every detail was taken care of, and the team was fantastic to work with.",
+      "The annual gathering event was beautifully organized, bringing together students and faculty for a memorable experience. Outstanding coordination and execution!",
   },
   {
-    name: "Emily Johnson",
-    designation: "Event Manager, LMN Inc",
-    image: image1,
+    name: "Sanket Tilekar",
+    designation: "Founder, Aspire Sports Club",
     feedback:
-      "The level of professionalism and creativity displayed in this event was truly impressive.",
+      "The corporate event exceeded all expectations! The level of professionalism and meticulous planning was evident in every aspect.",
+  },
+  {
+    name: "Sumit Bhosale",
+    designation: "DJ Launch Event",
+    feedback:
+      "The DJ launch event was electric! The energy, ambiance, and flawless organization made it a night to remember.",
+  },
+  {
+    name: "Supriya Jadhav",
+    designation: "Car Showroom",
+    feedback:
+      "The event at our car showroom was a great success. The team ensured every detail was perfect, creating a highly engaging experience for our customers.",
+  },
+  {
+    name: "Umesh Bhadwalkar",
+    designation: "Wedding Event",
+    feedback:
+      "The wedding event was nothing short of magical. From the decorations to the seamless coordination, everything was perfect!",
+  },
+  {
+    name: "Pavan Gavhane",
+    designation: "Birthday Event",
+    feedback:
+      "The birthday event was delightful and filled with joy. The team's efforts in creating a memorable celebration were truly appreciated.",
   },
 ];
+
+
 
 const Testimonial = () => {
   const settings = {
@@ -45,11 +65,11 @@ const Testimonial = () => {
 
   return (
     <div className="bg-gradient-to-br from-[#1F1F1F] to-[#0A0A0A] py-16">
-      <h2 className="text-center text-[#C29180] text-3xl md:text-5xl font-bold mb-8">
-        What Our Clients Say
+      <h2 className="text-center text-gradient bg-orange-400 bg-clip-text text-transparent text-xl md:text-4xl font-extrabold mb-10">
+        Hear from Our Clients
       </h2>
       <motion.div
-        className="max-w-4xl mx-auto px-4"
+        className="max-w-3xl mx-auto px-6"
         initial={{ opacity: 0, y: 50 }}
         animate={{ opacity: 1, y: 0 }}
         transition={{ duration: 0.8, ease: "easeOut" }}
@@ -58,30 +78,33 @@ const Testimonial = () => {
           {testimonials.map((testimonial, index) => (
             <motion.div
               key={index}
-              className="p-6 bg-gray-900 text-white rounded-lg shadow-lg"
+              className="p-8 bg-black text-white rounded-lg shadow-lg relative"
               initial={{ opacity: 0, scale: 0.9 }}
               whileHover={{ scale: 1.05 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ duration: 0.5 }}
             >
-              <div className="flex flex-col md:flex-row items-center gap-6">
-                <img
-                  src={testimonial.image}
-                  alt={testimonial.name}
-                  className="w-20 h-20 md:w-28 md:h-28 rounded-full object-cover shadow-md border-2 border-[#C29180]"
-                />
-                <div className="flex-1">
-                  <p className="text-lg md:text-xl italic text-gray-300 mb-4">
-                    "{testimonial.feedback}"
-                  </p>
-                  <h3 className="text-lg md:text-2xl font-bold text-[#C29180]">
-                    {testimonial.name}
-                  </h3>
-                  <p className="text-sm md:text-base text-gray-400">
-                    {testimonial.designation}
-                  </p>
+              <div className="flex flex-col items-center">
+                <div className="flex space-x-1 mb-4">
+                  {Array(5)
+                    .fill(0)
+                    .map((_, i) => (
+                      <span key={i} className="text-yellow-400 text-xl">
+                        ★
+                      </span>
+                    ))}
                 </div>
+                <p className="text-center text-lg md:text-xl italic text-gray-300 mb-6">
+                  "{testimonial.feedback}"
+                </p>
+                <h3 className="text-center text-xl md:text-2xl font-bold text-orange-400">
+                  {testimonial.name}
+                </h3>
+                <p className="text-center text-sm md:text-base text-gray-400">
+                  {testimonial.designation}
+                </p>
               </div>
+              <div className="absolute -top-5 left-1/2 transform -translate-x-1/2 bg-orange-500 w-10 h-10 rounded-full shadow-md"></div>
             </motion.div>
           ))}
         </Slider>

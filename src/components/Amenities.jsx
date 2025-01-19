@@ -23,11 +23,11 @@ const EventManagementSection = () => {
       {/* Right Content Section */}
       <div className="lg:w-1/2 w-full mt-12 lg:mt-0 lg:ml-12">
         {/* Tag */}
-        <div className="bg-white text-orange-600 font-semibold px-4 py-1 inline-block rounded-full mb-4">
+        <div className="bg-white text-orange-400 font-semibold px-4 py-1 inline-block rounded-full mb-4">
           Efent Events
         </div>
         {/* Title */}
-        <h2 className="text-4xl font-extrabold mb-4 text-orange-300">
+        <h2 className="text-4xl font-extrabold mb-4 text-orange-400">
           Your Trusted Event Management Partner
         </h2>
         {/* Description */}
@@ -38,25 +38,25 @@ const EventManagementSection = () => {
         {/* Features List */}
         <div className="grid grid-cols-2 gap-4 mb-6">
           <div className="flex items-center space-x-3">
-            <span className="bg-white text-purple-600 p-2 rounded-full shadow-lg">
+            <span className="bg-white text-pink-500 p-2 rounded-full shadow-lg">
               <FaCalendarAlt />
             </span>
             <span>Custom Event Planning</span>
           </div>
           <div className="flex items-center space-x-3">
-            <span className="bg-white text-purple-600 p-2 rounded-full shadow-lg">
+            <span className="bg-white text-pink-500 p-2 rounded-full shadow-lg">
               <FaMusic />
             </span>
             <span>Entertainment & Music</span>
           </div>
           <div className="flex items-center space-x-3">
-            <span className="bg-white text-purple-600 p-2 rounded-full shadow-lg">
+            <span className="bg-white text-pink-500 p-2 rounded-full shadow-lg">
               <FaCameraRetro />
             </span>
             <span>Photography & Videography</span>
           </div>
           <div className="flex items-center space-x-3">
-            <span className="bg-white text-purple-600 p-2 rounded-full shadow-lg">
+            <span className="bg-white text-pink-500 p-2 rounded-full shadow-lg">
               <FaSmileBeam />
             </span>
             <span>Memorable Experiences</span>
@@ -71,7 +71,7 @@ const EventManagementSection = () => {
         {/* Button */}
         <a
           href="/services"
-          className="bg-white text-orange-400 font-semibold px-6 py-3 rounded-lg shadow-lg hover:bg-purple-700 hover:text-white transition"
+          className="bg-white text-orange-400 font-semibold px-6 py-3 rounded-lg shadow-lg hover:bg-pink-500 hover:text-white transition"
         >
           EXPLORE SERVICES
         </a>

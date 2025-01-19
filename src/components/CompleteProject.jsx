@@ -2,10 +2,10 @@ import React from "react";
 import { motion } from "framer-motion";
 
 const stats = [
-  { value: 200, label: "Corporate Clients" },
-  { value: 2000, label: "Events" },
-  { value: 4000, label: "Exhibitions" },
-  { value: 1000, label: "Activations" },
+  { value: 20, label: "Corporate Clients" },
+  { value: 30, label: "Events" },
+  { value: 35, label: "Exhibitions" },
+  { value: 25, label: "Activations" },
 ];
 
 const Counter = ({ endValue }) => {
@@ -48,8 +48,8 @@ const App = () => {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
     >
-      <h1 className="text-2xl md:text-4xl text-[#C29180] font-bold mb-8">
-        SUCCESSFULLY COMPLETED 7000+ PROJECTS
+      <h1 className="text-2xl md:text-4xl text-orange-400 font-bold mb-8">
+        SUCCESSFULLY COMPLETED 100+ PROJECTS
       </h1>
       <motion.div
         className="grid grid-cols-2 md:grid-cols-4 gap-8 text-white"
@@ -66,13 +66,13 @@ const App = () => {
         {stats.map((stat, index) => (
           <motion.div
             key={index}
-            className="flex flex-col items-center p-4 bg-gray-900 rounded-lg shadow-lg hover:scale-105 transition-transform"
+            className="flex flex-col items-center p-4 bg-black rounded-lg shadow-lg hover:scale-105 transition-transform"
             variants={{
               hidden: { opacity: 0, y: 50 },
               visible: { opacity: 1, y: 0 },
             }}
           >
-            <p className="text-3xl md:text-5xl font-bold text-[#C29180]">
+            <p className="text-3xl md:text-5xl font-bold text-orange-400">
               <Counter endValue={stat.value} />
             </p>
             <p className="text-sm md:text-lg uppercase mt-2">{stat.label}</p>

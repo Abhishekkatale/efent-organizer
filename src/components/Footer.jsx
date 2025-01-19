@@ -2,6 +2,7 @@ import React from "react";
 import { motion } from "framer-motion";
 import logo from '../assets/logoo.svg';
 import { FaFacebook, FaInstagram, FaLinkedin, FaTwitter } from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 
 const Footer = () => {
@@ -34,7 +35,7 @@ const Footer = () => {
             <a href="#">
               <motion.img
                 src={logo}
-                alt="CRAFTWORLD Logo"
+                alt="Efent Logo"
                 className="w-32"
                 whileHover={{ scale: 1.1 }}
                 transition={{ duration: 0.3 }}
@@ -50,29 +51,29 @@ const Footer = () => {
             className="w-full md:w-1/4"
             variants={{ hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0 } }}
           >
-            <h2 className="text-2xl font-bold text-[#C29180] mb-4">Quick Links</h2>
+            <h2 className="text-2xl font-bold text-orange-400 mb-4">Quick Links</h2>
             <ul className="space-y-2">
-              <li>
-                <a href="#home" className="hover:text-[#C29180] transition">
-                  Home
-                </a>
-              </li>
-              <li>
-                <a href="#services" className="hover:text-[#C29180] transition">
-                  Services
-                </a>
-              </li>
-              <li>
-                <a href="#events" className="hover:text-[#C29180] transition">
-                  Events
-                </a>
-              </li>
-              <li>
-                <a href="#contact" className="hover:text-[#C29180] transition">
-                  Contact Us
-                </a>
-              </li>
-            </ul>
+  <li>
+    <Link to="/" className="hover:text-[#C29180] transition">
+      Home
+    </Link>
+  </li>
+  <li>
+    <Link to="/about-us" className="hover:text-[#C29180] transition">
+      About Us
+    </Link>
+  </li>
+  <li>
+    <Link to="/services" className="hover:text-[#C29180] transition">
+      Services
+    </Link>
+  </li>
+  <li>
+    <Link to="/contact-us" className="hover:text-[#C29180] transition">
+      Contact Us
+    </Link>
+  </li>
+  </ul>
           </motion.div>
 
           {/* Contact Section */}
@@ -80,10 +81,10 @@ const Footer = () => {
             className="w-full md:w-1/4"
             variants={{ hidden: { opacity: 0, y: 20 }, visible: { opacity: 1, y: 0 } }}
           >
-            <h2 className="text-2xl font-bold text-[#C29180] mb-4">Contact Us</h2>
-            <p className="text-gray-400">123 Event Street, City, Country</p>
-            <p className="text-gray-400 mt-2">Email: info@event.com</p>
-            <p className="text-gray-400 mt-2">Phone: +123 456 7890</p>
+            <h2 className="text-2xl font-bold text-orange-400 mb-4">Contact Us</h2>
+            <p className="text-gray-400">Manjari BK, Pune, India</p>
+            <p className="text-gray-400 mt-2">Email: info.efent@gmail.com</p>
+            <p className="text-gray-400 mt-2">Phone: +91 78757 17213</p>
             <br/>
             <div className="flex flex-col lg:flex-row justify-between items-center mb-8">
           
@@ -137,9 +138,25 @@ const Footer = () => {
           animate={{ opacity: 1 }}
           transition={{ duration: 1, ease: "easeOut" }}
         >
-          <p className="text-gray-400 text-sm">
-            © 2025 EventPro. All rights reserved.
-          </p>
+
+
+<div className="flex flex-col items-center md:flex-row md:justify-between">
+  <div className="flex flex-col items-center md:items-start md:flex-row md:space-x-4">
+    <p className="mb-2 md:mb-0">&copy; 2024 Efent. All rights reserved.</p>
+    <span className="hidden md:block">|</span>
+    <a href="/terms-and-conditions" className="hover:text-orange-500">Terms Of Service</a>
+    <a href="/privacy-policy" className="hover:text-orange-500 ml-4">Privacy Policy</a>
+  </div>
+
+  
+</div>
+<div className="mt-4 md:mt-0 md:ml-auto flex items-center">
+    <span className="text-right">Developed by: <a href="https://musitech.in" className="text-orange-500">MusiTech</a></span>
+  </div>
+
+
+
+         
           <div className="flex space-x-4 mt-4 md:mt-0">
             <motion.a
               href="#"

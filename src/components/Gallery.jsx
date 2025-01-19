@@ -5,13 +5,11 @@ import S3 from '../assets/S3.JPG';
 import S4 from '../assets/S4.JPG';
 import S5 from '../assets/S5.JPG';
 import S6 from '../assets/S6.JPG';
-import S7 from '../assets/ku1.JPG';
-import S8 from '../assets/ku2.JPG';
-import S9 from '../assets/ku3.JPG';
+
 
 
 const GallerySection = () => {
-  const images = [S1, S2, S3, S4, S5, S6, S7, S8, S9];
+  const images = [S1, S2, S3, S4, S5, S6];
 
 
   return (
@@ -19,9 +17,13 @@ const GallerySection = () => {
       <div className="text-center mb-8">
         <h2 className="text-4xl font-bold text-orange-400">Our Work</h2>
       </div>
+
+      
       <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8 px-12">
+   
         {images.map((image, index) => (
           <div key={index} className="relative group">
+            
             <img
               src={image}
               alt={`Work ${index + 1}`}
@@ -29,6 +31,7 @@ const GallerySection = () => {
             />
           </div>
         ))}
+        
       </div>
     </section>
   );
