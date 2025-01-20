@@ -24,7 +24,7 @@ const AboutPage = () => {
             At Efnet Events, we specialize in creating memorable and impactful events. From corporate functions to brand activations, we ensure that each event is unique and unforgettable.
           </p>
           <motion.button
-            className="bg-purple-600 text-white py-2 px-6 rounded-full text-xl hover:bg-orange-700 transition duration-300"
+            className="bg-gradient-to-r from-purple-600 via-pink-500 to-orange-400 text-white py-2 px-6 rounded-full text-xl hover:bg-orange-700 transition duration-300"
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 1 }}

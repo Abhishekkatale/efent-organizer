@@ -26,7 +26,7 @@ const WhyChooseUs = () => {
 </p>
 
           <motion.button
-            className="bg-orange-400 text-black py-2 px-6 rounded-md hover:bg-orange-500 transition-all"
+            className="bg-gradient-to-r from-purple-600 via-pink-500 to-orange-400 text-black py-2 px-6 rounded-md hover:bg-orange-500 transition-all"
             whileHover={{ scale: 1.1 }}
             whileTap={{ scale: 0.95 }}
           >

@@ -76,8 +76,8 @@ const PortfolioPage = () => {
           <section className="mt-16">
             <h2 className="text-3xl font-bold text-orange-600 mb-8">Ready to Plan Your Next Event?</h2>
             <a
-              href="/contact"
-              className="inline-flex items-center justify-center px-6 py-3 bg-purple-500 text-white text-lg font-semibold rounded-full shadow-md hover:bg-pink-600 transition-colors duration-300"
+              href="https://docs.google.com/forms/d/e/1FAIpQLSd2U0Eno08Q7gM_X7F_06sudsPf5y6-OKWtT1yB3G9Iqdiwdw/viewform?usp=header"
+              className="inline-flex items-center justify-center px-6 py-3 bg-gradient-to-r from-purple-600 via-pink-500 to-orange-400 text-white text-lg font-semibold rounded-full shadow-md hover:bg-pink-600 transition-colors duration-300"
             >
               Contact Us
             </a>

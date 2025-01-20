@@ -23,7 +23,7 @@ const EventManagementSection = () => {
       {/* Right Content Section */}
       <div className="lg:w-1/2 w-full mt-12 lg:mt-0 lg:ml-12">
         {/* Tag */}
-        <div className="bg-white text-orange-400 font-semibold px-4 py-1 inline-block rounded-full mb-4">
+        <div className="bg-gradient-to-r from-purple-600 via-pink-500 to-orange-400 text-[#FFF3cd] font-semibold px-4 py-1 inline-block rounded-full mb-4">
           Efent Events
         </div>
         {/* Title */}
@@ -71,7 +71,7 @@ const EventManagementSection = () => {
         {/* Button */}
         <a
           href="/services"
-          className="bg-white text-orange-400 font-semibold px-6 py-3 rounded-lg shadow-lg hover:bg-pink-500 hover:text-white transition"
+          className="bg-gradient-to-r from-purple-600 via-pink-500 to-orange-400 text-[#FFF3CD] font-semibold px-6 py-3 rounded-lg shadow-lg hover:bg-pink-500 hover:text-white transition"
         >
           EXPLORE SERVICES
         </a>

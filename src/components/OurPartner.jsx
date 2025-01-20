@@ -43,7 +43,7 @@ const OurPartners = () => {
     <section className="bg-gradient-to-br from-[#1F1F1F] to-[#0A0A0A] py-16 px-8 lg:px-24">
       {/* Section Title */}
       <div className="text-center mb-12">
-        <div className="bg-white text-orange-400 font-semibold px-4 py-1 inline-block rounded-full mb-4">
+        <div className="bg-gradient-to-r from-purple-600 via-pink-500 to-orange-400 text-[#FFF3CD] font-semibold px-4 py-1 inline-block rounded-full mb-4">
           Our Partners
         </div>
         <h2 className="text-4xl font-extrabold text-orange-400">
