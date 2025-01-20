@@ -6,21 +6,21 @@ import image3 from "../assets/S1.JPG";
 
 const cardsData = [
   {
-    title: "Event",
+    title: "Event Planning & Management",
     description:
-      "We create amazing occasion and entertainment events through extraordinary event design, planning & production. Rated #1 event management company in Mumbai, as well as one of the top event firms in India.",
+      "We specialize in creating exceptional events that leave lasting impressions. Whether it's a corporate function, private celebration, or large-scale public event, our expert team designs and executes every detail to perfection. From ideation to execution, we ensure your event is seamless, memorable, and exactly as you envisioned.",
     image: image1,
   },
   {
     title: "Brand Activation",
     description:
-      "We proudly present our very own BTL segment ONE ON ONE that involves the use of subtle marketing techniques to get the product right to where the consumers are present. The activities involve multiple marketing channels.",
+      "Our Brand Activation services are designed to engage and captivate your target audience through innovative marketing strategies. We use a variety of platforms, including social media, experiential marketing, and in-person activations, to boost brand visibility and create meaningful connections between brands and their consumers.",
     image: image2,
   },
   {
-    title: "Exhibition",
+    title: "Exhibition Design & Setup",
     description:
-      "Exhibitions are major events for any company & we fully understand the need for a return on investment. With this in mind, every exhibition stall is designed and constructed by our experienced designers.",
+      "Our exhibition design services help brands stand out at trade shows, conventions, and expos. We provide end-to-end solutions, from conceptual design to construction, ensuring that every stall is visually appealing, functional, and optimized to deliver a great return on investment. We take care of everything so you can focus on building valuable connections.",
     image: image3,
   },
 ];

@@ -13,19 +13,19 @@ const portfolioData = [
     title: "Corporate Event - Aspire Sports Club",
     image: image1,
     description: "A dynamic corporate event featuring keynote speakers, seminars, and networking sessions aimed at fostering business growth.",
-    link: "/portfolios"
+    link: "https://www.instagram.com/reel/DDTx7olTBDd/?igsh=MTc4aHhoMm8xdmM2bA=="
   },
   {
     title: "Traditional Event - Cadence Academy",
     image: image2,
     description: "A cultural event blending traditional performances and community activities to celebrate heritage and innovation.",
-    link: "/portfolios"
+    link: "https://www.instagram.com/reel/C6lhKlkIs4K/?igsh=MXl5ZGNiaHkyaTEz"
   },
   {
     title: "Annual Gathering Event - PDEACOEM",
     image: image3,
     description: "An annual celebration at PDEACOEM, bringing together students, alumni, and faculty with engaging talks and performances.",
-    link: "/portfolios"
+    link: "https://www.instagram.com/reel/C4nWH3LB-Ml/?igsh=MThlajIzOHhzZ3UxeA=="
   },
 ];
 

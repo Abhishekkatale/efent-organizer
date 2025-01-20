@@ -90,7 +90,7 @@ const Footer = () => {
           
           <div className="flex space-x-8 mt-6 lg:mt-0">
             <a
-              href="https://www.facebook.com/EFENT"
+              href="https://www.facebook.com/share/18PJ6VMqwE/"
               className="text-3xl hover:text-orange-500 transition duration-300"
               aria-label="Facebook"
             >
@@ -98,21 +98,21 @@ const Footer = () => {
             </a>
             <a
               href="https://twitter.com/EFENT"
-              className="text-3xl hover:text-text-orange-500 transition duration-300"
+              className="text-3xl hover:text-orange-500 transition duration-300"
               aria-label="Twitter"
             >
               <FaTwitter />
             </a>
             <a
-              href="https://www.instagram.com/EFENT"
-              className="text-3xl hover:text-text-orange-500 transition duration-300"
+              href="https://www.instagram.com/efent_?igsh=MzRlODBiNWFlZA=="
+              className="text-3xl hover:text-orange-500 transition duration-300"
               aria-label="Instagram"
             >
               <FaInstagram />
             </a>
             <a
               href="https://www.linkedin.com/company/EFENT"
-              className="text-3xl hover:text-text-orange-500 transition duration-300"
+              className="text-3xl hover:text-orange-500 transition duration-300"
               aria-label="LinkedIn"
             >
               <FaLinkedin />

@@ -149,13 +149,13 @@ const EventManagementPage = () => {
           <section className="py-12 px-6 lg:px-12 text-center">
             <h2 className="text-4xl font-bold text-orange-600 mb-8">Get in Touch</h2>
             <a
-              href="https://wa.me/7822857872" // Replace with your WhatsApp number
+              href="https://docs.google.com/forms/d/e/1FAIpQLSd2U0Eno08Q7gM_X7F_06sudsPf5y6-OKWtT1yB3G9Iqdiwdw/viewform?usp=header" // Replace with your WhatsApp number
               className="inline-flex items-center justify-center px-6 py-3 bg-purple-500 text-white text-lg font-semibold rounded-full shadow-md hover:bg-pink-600 transition-colors duration-300"
               target="_blank"
               rel="noopener noreferrer"
             >
               <IoLogoWhatsapp className="mr-2 text-2xl" />
-              Chat with Us on WhatsApp
+              Contact Us
             </a>
           </section>
         </div>

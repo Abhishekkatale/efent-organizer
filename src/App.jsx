@@ -8,12 +8,14 @@ import Blog from './pages/Blog.jsx';
 import ContactUs from './pages/ContactUs.jsx'
 import AboutUs from './pages/AboutUs.jsx'
 import Portfolios from './pages/Portfolios.jsx'
+import WhatsAppButton from './WhatsAppButton.js';
 
 
 function App() {
   return (
     <>
       <ScrollToTop />
+      <WhatsAppButton /> 
       <Routes>
         <Route path="/" element={<LandingPage />} />
         <Route path="/home" element={<LandingPage />} />

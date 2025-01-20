@@ -1,10 +1,10 @@
 import React from 'react';
-import S1 from '../assets/S1.JPG';
-import S2 from '../assets/S2.JPG';
-import S3 from '../assets/S3.JPG';
-import S4 from '../assets/S4.JPG';
-import S5 from '../assets/S5.JPG';
-import S6 from '../assets/S6.JPG';
+import S1 from '../assets/gath11.JPG';
+import S2 from '../assets/gath12.JPG';
+import S3 from '../assets/P1.jpg';
+import S4 from '../assets/P2.jpg';
+import S5 from '../assets/P3.jpg';
+import S6 from '../assets/P4.jpg';
 
 
 

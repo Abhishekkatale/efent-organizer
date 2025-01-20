@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { motion } from "framer-motion";
-import videoSrc from "../assets/aspire.mp4"; // High-quality video file
+import videoSrc from "../assets/vid.MP4"; // High-quality video file
 
 const WhyChooseUs = () => {
   const [isPlaying, setIsPlaying] = useState(true); // State to track if the video is playing

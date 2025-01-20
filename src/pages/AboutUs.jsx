@@ -113,21 +113,21 @@ const AboutPage = () => {
             Our Core Values
           </motion.h2>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
-            <div className="bg-[#FFF3CD] p-6 rounded-lg shadow-md hover:bg-gray-200 transition duration-300">
+            <div className="bg-[#FFF3CD] p-6 rounded-lg shadow-md hover:bg-orange-200 transition duration-300">
               <FaTrophy className="text-orange-600 text-4xl mb-4" />
               <h3 className="text-xl font-semibold mb-2">Excellence</h3>
               <p className="text-gray-600">
                 We strive for perfection in everything we do, from planning to execution, ensuring that each event is a true success.
               </p>
             </div>
-            <div className="bg-[#FFF3CD] p-6 rounded-lg shadow-md hover:bg-gray-200 transition duration-300">
+            <div className="bg-[#FFF3CD] p-6 rounded-lg shadow-md hover:bg-orange-200 transition duration-300">
               <FaMapMarkerAlt className="text-orange-600 text-4xl mb-4" />
               <h3 className="text-xl font-semibold mb-2">Innovation</h3>
               <p className="text-gray-600">
                 We constantly innovate and stay ahead of the curve to provide creative solutions that set us apart in the event management industry.
               </p>
             </div>
-            <div className="bg-[#FFF3CD] p-6 rounded-lg shadow-md hover:bg-gray-200 transition duration-300">
+            <div className="bg-[#FFF3CD] p-6 rounded-lg shadow-md hover:bg-orange-200 transition duration-300">
               <IoMdRocket className="text-orange-600 text-4xl mb-4" />
               <h3 className="text-xl font-semibold mb-2">Passion</h3>
               <p className="text-gray-600">
