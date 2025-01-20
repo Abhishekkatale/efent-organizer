@@ -1,55 +1,61 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Slider from "react-slick";
+import { FaUserTie, FaBirthdayCake, FaCar, FaMusic, FaBuilding, FaHandshake, FaHeart } from "react-icons/fa";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 
 const testimonials = [
   {
     name: "Mayuri Gavhane",
-    designation: "Director, Cadence Academy",
+    designation: "Traditional Event",
     feedback:
       "The traditional event was conducted with such elegance and attention to detail. It was a remarkable experience, leaving everyone impressed.",
+    symbol: <FaHeart />,
   },
   {
     name: "Dr. R. V. Patil",
-    designation: "Principal, PDEACOEM",
+    designation: "Annual Day Event",
     feedback:
       "The annual gathering event was beautifully organized, bringing together students and faculty for a memorable experience. Outstanding coordination and execution!",
+    symbol: <FaBuilding />,
   },
   {
     name: "Sanket Tilekar",
-    designation: "Founder, Aspire Sports Club",
+    designation: "Corporate Event",
     feedback:
       "The corporate event exceeded all expectations! The level of professionalism and meticulous planning was evident in every aspect.",
+    symbol: <FaHandshake />,
   },
   {
     name: "Sumit Bhosale",
     designation: "DJ Launch Event",
     feedback:
       "The DJ launch event was electric! The energy, ambiance, and flawless organization made it a night to remember.",
+    symbol: <FaMusic />,
   },
   {
     name: "Supriya Jadhav",
     designation: "Car Showroom",
     feedback:
       "The event at our car showroom was a great success. The team ensured every detail was perfect, creating a highly engaging experience for our customers.",
+    symbol: <FaCar />,
   },
   {
     name: "Umesh Bhadwalkar",
     designation: "Wedding Event",
     feedback:
       "The wedding event was nothing short of magical. From the decorations to the seamless coordination, everything was perfect!",
+    symbol: <FaHeart />,
   },
   {
     name: "Pavan Gavhane",
     designation: "Birthday Event",
     feedback:
       "The birthday event was delightful and filled with joy. The team's efforts in creating a memorable celebration were truly appreciated.",
+    symbol: <FaBirthdayCake />,
   },
 ];
-
-
 
 const Testimonial = () => {
   const settings = {
@@ -85,6 +91,9 @@ const Testimonial = () => {
               transition={{ duration: 0.5 }}
             >
               <div className="flex flex-col items-center">
+                <div className="flex justify-center items-center mb-4 text-orange-500 text-3xl">
+                  {testimonial.symbol}
+                </div>
                 <div className="flex space-x-1 mb-4">
                   {Array(5)
                     .fill(0)
@@ -104,7 +113,6 @@ const Testimonial = () => {
                   {testimonial.designation}
                 </p>
               </div>
-              <div className="absolute -top-5 left-1/2 transform -translate-x-1/2 bg-orange-500 w-10 h-10 rounded-full shadow-md"></div>
             </motion.div>
           ))}
         </Slider>

@@ -1,6 +1,6 @@
-// FloatingActionButton.js
 import React, { useState } from "react";
 import { FaWhatsapp, FaInstagram, FaPhone, FaEnvelope, FaTimes } from "react-icons/fa";
+import { motion } from "framer-motion";
 
 const FloatingActionButton = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -20,7 +20,10 @@ const FloatingActionButton = () => {
         );
         break;
       case "contact":
-        window.open("https://docs.google.com/forms/d/e/1FAIpQLSd2U0Eno08Q7gM_X7F_06sudsPf5y6-OKWtT1yB3G9Iqdiwdw/viewform?usp=header", "_blank");
+        window.open(
+          "https://docs.google.com/forms/d/e/1FAIpQLSd2U0Eno08Q7gM_X7F_06sudsPf5y6-OKWtT1yB3G9Iqdiwdw/viewform?usp=header",
+          "_blank"
+        );
         break;
       case "instagram":
         window.open("https://www.instagram.com/efent_?igsh=MzRlODBiNWFlZA==", "_blank");
@@ -36,14 +39,23 @@ const FloatingActionButton = () => {
   return (
     <div className="fixed bottom-8 right-8 z-50">
       {/* Main Button */}
-      <div
+      <motion.div
         onClick={toggleOptions}
         className={`bg-gradient-to-r from-purple-600 via-pink-500 to-orange-400 text-white p-4 rounded-full shadow-xl cursor-pointer hover:scale-110 transition-transform ${
           isOpen ? "bg-red-600" : ""
         }`}
+        initial={{ scale: 1 }}
+        animate={{
+          scale: [1, 1.2, 1],
+          transition: {
+            repeat: Infinity,
+            repeatType: "loop",
+            duration: 1.5,
+          },
+        }}
       >
         {isOpen ? <FaTimes size={30} /> : <FaEnvelope size={30} />}
-      </div>
+      </motion.div>
 
       {/* Options */}
       {isOpen && (

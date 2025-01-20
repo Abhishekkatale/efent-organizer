@@ -5,8 +5,8 @@ import "slick-carousel/slick/slick-theme.css";
 
 const OurPartners = () => {
   const partners = [
-    { name: "Partner 1", logo: require("../assets/Aspire.png") },
-    { name: "Partner 2", logo: require("../assets/musi.png") },
+    { name: "Partner 1", logo: require("../assets/Aspire Logo.png") },
+    { name: "Partner 2", logo: require("../assets/musib.png") },
     { name: "Partner 3", logo: require("../assets/cade.png") },
     { name: "Partner 4", logo: require("../assets/Pdea22 .png") },
     { name: "Partner 5", logo: require("../assets/shree.jpg") },
