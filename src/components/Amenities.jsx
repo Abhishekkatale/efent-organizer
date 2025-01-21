@@ -6,19 +6,19 @@ const EventManagementSection = () => {
     <section className="flex flex-col lg:flex-row items-center justify-between py-12 px-8 lg:px-24 bg-black text-white pb-16">
       {/* Left Image Section */}
       <div className="relative lg:w-1/2 w-full flex items-center justify-center">
-        {/* Main Image */}
-        <img
-          src="https://codewithsadee.github.io/homeverse/assets/images/about-banner-1.png"
-          alt="Event Setup"
-          className="w-full max-w-md shadow-2xl rounded-lg"
-        />
-        {/* Overlapping Image */}
-        <img
-          src="https://codewithsadee.github.io/homeverse/assets/images/about-banner-2.jpg"
-          alt="Decor"
-          className="absolute bottom-0 left-12 w-1/2 shadow-xl rounded-lg transform translate-y-8"
-        />
-      </div>
+  {/* Main Image */}
+  <img
+    src={require("../assets/shu.webp")}
+    alt="Event Setup"
+    className="w-full max-w-md shadow-2xl rounded-lg"
+  />
+  {/* Overlapping Image */}
+  <img
+    src={require("../assets/sap.webp")}
+    alt="Decor"
+    className="absolute bottom-0 left-12 w-1/2 shadow-xl rounded-lg transform translate-y-8"
+  />
+</div>
 
       {/* Right Content Section */}
       <div className="lg:w-1/2 w-full mt-12 lg:mt-0 lg:ml-12">
