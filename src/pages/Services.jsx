@@ -21,7 +21,7 @@ const faqs = [
   },
   { 
     question: 'What services are included in your event planning packages?', 
-    answer: 'Our event planning packages include venue selection, catering, decor, entertainment, transportation, event coordination, and more. We take care of everything so you can focus on enjoying your event.' 
+    answer: 'Our event plan packages include venue selection, catering, decor, entertainment, transportation, event coordination, and more. We take care of everything so you can focus on enjoying your event.' 
   },
 ];
 
