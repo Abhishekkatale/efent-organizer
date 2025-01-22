@@ -16,7 +16,7 @@ const faqs = [
     answer: 'We work closely with our clients to understand their vision and provide customized event solutions. From the theme and decor to entertainment and logistics, we ensure every detail is tailored to create a one-of-a-kind experience.' 
   },
   { 
-    question: 'Can Efnet help with both small and large-scale events?', 
+    question: 'Can Efnet help with both small & large-scale events?', 
     answer: 'Yes, whether you’re hosting an intimate gathering or a grand celebration, Efnet has the expertise and resources to handle events of any size, ensuring quality service and attention to detail.' 
   },
   { 
