@@ -6,7 +6,7 @@ const Hero = () => {
   return (
     <section
       id="hero"
-      className="relative w-full overflow-hidden flex items-center justify-center bg-black"
+      className="relative w-full overflow-hidden flex items-center justify-center bg-black "
     >
       {/* Video Container */}
       <div

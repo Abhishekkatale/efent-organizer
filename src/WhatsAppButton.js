@@ -1,6 +1,7 @@
 import React, { useState } from "react";
-import { FaWhatsapp, FaInstagram, FaPhone, FaEnvelope, FaTimes } from "react-icons/fa";
+import { FaWhatsapp, FaInstagram, FaPhone, FaRobot, FaTimes, FaEnvelope } from "react-icons/fa"; // Updated import
 import { motion } from "framer-motion";
+
 
 const FloatingActionButton = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -54,7 +55,7 @@ const FloatingActionButton = () => {
           },
         }}
       >
-        {isOpen ? <FaTimes size={30} /> : <FaEnvelope size={30} />}
+        {isOpen ? <FaTimes size={30} /> : <FaRobot size={30} />} {/* Updated logo */}
       </motion.div>
 
       {/* Options */}
