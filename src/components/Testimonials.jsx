@@ -1,7 +1,7 @@
 import React from "react";
 import { motion } from "framer-motion";
 import Slider from "react-slick";
-import { FaUserTie, FaBirthdayCake, FaCar, FaMusic, FaBuilding, FaHandshake, FaHeart } from "react-icons/fa";
+import { FaBirthdayCake, FaCar, FaMusic, FaBuilding, FaHandshake, FaHeart } from "react-icons/fa";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 

@@ -9,6 +9,13 @@ import ContactUs from './pages/ContactUs.jsx'
 import AboutUs from './pages/AboutUs.jsx'
 import Portfolios from './pages/Portfolios.jsx'
 import WhatsAppButton from './WhatsAppButton.js';
+import Planners from './pages/planners.jsx'
+import Decorators from './pages/planners.jsx'
+import Caterers from './pages/caterers.jsx'
+import Photographers from './pages/photographers.jsx'
+import Venues from './pages/venues.jsx'
+import Artists from './pages/artists.jsx'
+import Djs from './pages/djs.jsx'
 
 
 function App() {
@@ -26,6 +33,13 @@ function App() {
         <Route path="/contact-us" element={<ContactUs />} />
         <Route path="/about-us" element={<AboutUs />} />
         <Route path="/portfolios" element={<Portfolios />} />
+        <Route path="/planners" element={<Planners />} />
+        <Route path="/caterers" element={<Caterers />} />
+        <Route path="/decorators" element={<Decorators />} />
+        <Route path="/photographers" element={<Photographers />} />
+        <Route path="/venues" element={<Venues />} />
+        <Route path="/artists" element={<Artists />} />
+        <Route path="/djs" element={<Djs />} />
       </Routes>
     </>
   );
