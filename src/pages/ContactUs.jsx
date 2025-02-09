@@ -20,13 +20,13 @@ const ContactUs = () => {
               <iframe
                 title="map"
                 className="w-full h-full rounded"
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1849.6712458706404!2d73.95752000859329!3d18.525169049551184!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c3d44274288b%3A0x69a1a2f7e36e1bf4!2sMusitech%3A%20Digital%20Marketing!5e1!3m2!1sen!2sin!4v1737268639368!5m2!1sen!2sin"
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3699.4282009625276!2d73.97784724831581!3d18.521207026901166!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc2c3fb1fc036eb%3A0xc2e536848ae419bc!2sEfent%20Event%20Planner!5e1!3m2!1sen!2sin!4v1739084712843!5m2!1sen!2sin"
                 style={{ border: 0 }}
                 allowFullScreen
                 loading="lazy"
               ></iframe>
             </div>
-
+           
             {/* Form Section */}
             <div>
               <form className="space-y-6">
