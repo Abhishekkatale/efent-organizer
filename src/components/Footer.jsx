@@ -84,7 +84,7 @@ const Footer = () => {
             <h2 className="text-2xl font-bold text-orange-400 mb-4">Contact Us</h2>
             <p className="text-gray-400">Manjari BK, Pune, India</p>
             <p className="text-gray-400 mt-2">Email: info.efent@gmail.com</p>
-            <p className="text-gray-400 mt-2">Phone: +91 78757 17213</p>
+            <p className="text-gray-400 mt-2">Phone: +91 9325555711</p>
             <br/>
             <div className="flex flex-col lg:flex-row justify-between items-center mb-8">
           

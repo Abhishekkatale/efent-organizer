@@ -8,7 +8,7 @@ const EventManagementSection = () => {
       <div className="relative lg:w-1/2 w-full flex items-center justify-center">
   {/* Main Image */}
   <img
-    src={require("../assets/shu.webp")}
+    src={require("../assets/A71.jpeg")}
     alt="Event Setup"
     className="w-full max-w-md shadow-2xl rounded-lg"
   />
